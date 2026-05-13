@@ -69,7 +69,7 @@ export default function Hero() {
             <div className="absolute -inset-6 rounded-[2rem] bg-accent-500/20 blur-2xl" />
             <div className="relative overflow-hidden rounded-[2rem] bg-white/10 p-2 ring-1 ring-white/20 backdrop-blur">
               <Image
-                src="/marie.jpg"
+                src="/public/marie.jpeg"
                 alt="Marie Jones, Loan Officer with Fairway Home Mortgage"
                 width={720}
                 height={900}
