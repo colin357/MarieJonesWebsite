@@ -41,34 +41,6 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5">
-              <div className="text-sm font-semibold text-slate-900">
-                Contact Marie directly
-              </div>
-              <div className="mt-2 space-y-1 text-sm text-slate-700">
-                <div>
-                  Phone:{" "}
-                  <a
-                    href="tel:+12625675005"
-                    className="font-medium text-brand-700 hover:underline"
-                  >
-                    (262) 567-5005
-                  </a>
-                </div>
-                <div>
-                  Email:{" "}
-                  <a
-                    href="mailto:mariej@fairwaymc.com"
-                    className="font-medium text-brand-700 hover:underline"
-                  >
-                    mariej@fairwaymc.com
-                  </a>
-                </div>
-                <div>
-                  205 S 3rd St, Watertown, WI 53094 · NMLS #290059
-                </div>
-              </div>
-            </div>
           </div>
 
           <div>
@@ -90,6 +62,33 @@ export default function About() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-10 rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center">
+          <div className="text-sm font-semibold text-slate-900">
+            Contact Marie directly
+          </div>
+          <div className="mt-3 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-slate-700">
+            <div>
+              Phone:{" "}
+              <a
+                href="tel:+12625675005"
+                className="font-medium text-brand-700 hover:underline"
+              >
+                (262) 567-5005
+              </a>
+            </div>
+            <div>
+              Email:{" "}
+              <a
+                href="mailto:mariej@fairwaymc.com"
+                className="font-medium text-brand-700 hover:underline"
+              >
+                mariej@fairwaymc.com
+              </a>
+            </div>
+            <div>205 S 3rd St, Watertown, WI 53094 · NMLS #290059</div>
           </div>
         </div>
       </div>
