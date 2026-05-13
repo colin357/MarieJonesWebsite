@@ -2,21 +2,21 @@ export default function SocialProof() {
   const testimonials = [
     {
       quote:
-        "Marie made our first home purchase feel completely stress-free. She answered every question patiently and kept us informed every step of the way. We closed on time and couldn't be happier.",
-      author: "The Anderson Family",
-      context: "First-time buyers · Watertown, WI",
+        "Marie was kind, prompt, and very helpful additionally, her team was super helpful and very prompt. I had great and pleasant interactions with Tracy. Marie and her team made the purchase of my house easy and seamless!! Thank you so much!!",
+      author: "Kim",
+      context: "Oconomowoc, WI",
     },
     {
       quote:
-        "We've worked with Marie twice now — once to buy and once to refinance. She knows the Wisconsin market inside and out and always finds the best option for our situation.",
-      author: "Tom & Karen S.",
-      context: "Purchase & refinance · Madison, WI",
+        "Have been dealing with Marie Jones and her team for a few years now the team is phenomenal, they are very professional have great customer service and they always provide me with what I need when shopping for a home. I would recommend Fairway Mortgage to anyone.",
+      author: "Frances",
+      context: "Milwaukee, WI",
     },
     {
       quote:
-        "Marie went above and beyond to get our USDA loan approved for our rural property. Her knowledge of Wisconsin programs saved us thousands of dollars.",
-      author: "The Hoffmann Family",
-      context: "USDA rural loan · Jefferson County, WI",
+        "We had a great experience working with our mortgage company throughout the home buying process. From start to finish, they were professional, responsive, and very patient in answering all of our questions. The communication was clear, and we always felt informed about what was happening next.",
+      author: "Calynn",
+      context: "Watertown, WI",
     },
   ];
 
