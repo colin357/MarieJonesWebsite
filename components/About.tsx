@@ -10,18 +10,6 @@ export default function About() {
     { title: "Renovation Loans", subtitle: "203(k) & more" },
   ];
 
-  const loanTypes = [
-    "Conventional",
-    "FHA",
-    "VA",
-    "USDA",
-    "Jumbo",
-    "Construction",
-    "Renovation",
-    "Refinance",
-    "Reverse",
-  ];
-
   return (
     <section id="about" className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4">
@@ -101,22 +89,6 @@ export default function About() {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            <div className="mt-6 rounded-2xl bg-white p-6 ring-1 ring-slate-200">
-              <h3 className="text-lg font-semibold text-slate-900">
-                Loan types Marie handles
-              </h3>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {loanTypes.map((l) => (
-                  <span
-                    key={l}
-                    className="rounded-full bg-brand-50 px-3 py-1 text-sm font-medium text-brand-700 ring-1 ring-brand-100"
-                  >
-                    {l}
-                  </span>
-                ))}
-              </div>
             </div>
           </div>
         </div>
