@@ -98,6 +98,17 @@ export default function Footer() {
             © {new Date().getFullYear()} Fairway Independent Mortgage Corporation.
             All rights reserved.
           </p>
+          <p>
+            Designed by{" "}
+            <a
+              href="https://ownitsocial.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-white underline"
+            >
+              Own It Social
+            </a>
+          </p>
         </div>
 
       </div>
